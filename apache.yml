@@ -3,21 +3,21 @@
   become: true
   connection: local
   tasks:
-    - name: Instalacao do Apache2 e componentes adicionais
+    - name: Instalacao do Apache e componentes adicionais
       yum: name={{item}} state=present update_cache=yes
       with_items:
-        - apache2
+        - httpd
         - libapache2-mod-wsgi
         - python-pip
         - python-virtualenv
  
     - name: Garantir que o Apache seja iniciado
-      service: name=apache2 state=started enabled=yes
+      service: name=httpd state=started enabled=yes
  
     - name: Habilitar o modulo mod_wsgi
       apache2_module: state=present name=wsgi
-      notify: restart apache2
+      notify: restart httpd
  
   handlers:
     - name: Reiniciar apache2
-      service: name=apache2 state=restarted
+      service: name=httpd state=restarted
