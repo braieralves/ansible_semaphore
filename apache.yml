@@ -4,7 +4,7 @@
   connection: local
   tasks:
     - name: Instalacao do Apache2 e componentes adicionais
-      apt: name={{item}} state=present update_cache=yes
+      yum: name={{item}} state=present update_cache=yes
       with_items:
         - apache2
         - libapache2-mod-wsgi
