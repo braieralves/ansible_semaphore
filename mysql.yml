@@ -3,8 +3,8 @@
   become: true
   connection: local
   tasks:
-    - name: "Instalacao do MYSQL SERVER via YUM"
-      yum: name=mysql-server state=present update_cache=yes
+    - name: "Instalacao do MariaDB SERVER via YUM"
+      yum: name=mariadb-server state=present update_cache=yes
  
     - name: "MYSQL started"
-      service: name=mysql state=started enabled=yes
+      service: name=mariadb state=started enabled=yes
