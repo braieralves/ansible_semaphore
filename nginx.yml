@@ -1,0 +1,14 @@
+---
+- hosts: artigolinkedin
+  become: true
+  connection: local
+  tasks:
+    - name: Instalacao do NGINX
+      yum: name=nginx state=present update_cache=yes
+
+    - name: Garantir que o NGINX seja iniciado
+      service: name=nginx state=started enabled=yes
+
+  handlers:
+    - name: Reiniciar NGINX
+      service: name=nginx state=started
