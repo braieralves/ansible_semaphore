@@ -1,7 +1,6 @@
 ---
 - hosts: all
   become: true
-  connection: local
   tasks:
     - name: "Instalacao do MariaDB SERVER via YUM"
       yum: name=mariadb-server state=present update_cache=yes
