@@ -1,6 +1,5 @@
 ---
-- hosts: artigolinkedin
-  connection: local
+- hosts: all
   tasks:
   - name: yum update
     action: yum name=* state=latest
