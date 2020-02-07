@@ -6,4 +6,4 @@
       yum: name=mariadb-server state=present update_cache=yes
  
     - name: "MYSQL started"
-      service: name=mariadb state=started enabled=yes
+      service: name=mariadb-server state=started enabled=yes
