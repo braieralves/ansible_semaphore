@@ -5,5 +5,5 @@ INSTALACAO DOS PACOTES:
 - Apache
 - PHP
 - MariaDB
-bair
+
 =)
