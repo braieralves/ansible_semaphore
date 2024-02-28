@@ -6,4 +6,4 @@ INSTALACAO DOS PACOTES:
 - PHP
 - MariaDB
 
-É isso =)
+=)
