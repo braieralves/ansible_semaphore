@@ -8,3 +8,4 @@ INSTALACAO DOS PACOTES:
 
 =)
 
+ok ok mobile
