@@ -8,4 +8,4 @@ INSTALACAO DOS PACOTES:
 
 =)
 
-Let's pass the /*GitHub Foundations Exam/* using *Bryan's Practice Exams*.
+(Let's pass the *GitHub Foundations Exam* using *Bryan's Practice Exams*)
