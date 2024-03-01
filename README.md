@@ -7,7 +7,3 @@ INSTALACAO DOS PACOTES:
 - MariaDB
 
 =)
-
-
-
-Let's pass the *GitHub Foundations Exam* using *Bryan's Practice Exams*.
