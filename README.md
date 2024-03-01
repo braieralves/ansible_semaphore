@@ -7,5 +7,3 @@ INSTALACAO DOS PACOTES:
 - MariaDB
 
 =)
-
-ok ok mobile
